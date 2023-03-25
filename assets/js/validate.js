@@ -22,6 +22,7 @@ function disableButton(){
 	pleaseWaitMessage.innerHTML = "Please wait...";
 }
 
+
 /* Next i write a function to enable the submit button and clear the "please-wait" message */
 function enableButton(){
 	submitButton.disabled = false;

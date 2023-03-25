@@ -16,6 +16,7 @@
 				exit(); /* and we stop the script here. */
 			}
 		}
+		
 		/* If there are no empty fields, i create new variables containing the input values
 		just to keep our script simple, so we can understand what is going on. */
 		$firstname =  $data->name; /* Remember that $data is an object now */
