@@ -93,7 +93,7 @@ form.addEventListener("submit", function(e){
 	/* To send the data to the server i need an XMLHttpRequest. */
 	let http = new XMLHttpRequest();
 	/* Next i need to prepare the request with the .open method */
-	http.open('post', "forms/script.php", true);
+	http.open('post', "script.php", true);
 	/* Next i will set the request header.
 	I will set the "content-type to "application/x-www-form-urlencoded", so that
 	the data is send as key => value pairs " */
