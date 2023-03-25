@@ -16,10 +16,9 @@
 				exit(); /* and we stop the script here. */
 			}
 		}
-		
 		/* If there are no empty fields, i create new variables containing the input values
 		just to keep our script simple, so we can understand what is going on. */
-		$firstname =  $data->name; /* Remember that $data is an object now */
+		$name =  $data->name; /* Remember that $data is an object now */
 		$email =  $data->email;
 		$message = $data->message;
 		/* Now i will check if the incoming email's value is valid */
@@ -35,12 +34,12 @@
 		
 		/* SET THE EMAIL ADDRESS YOU WANT TO RECEIVE THE MESSAGES  */
 		/* =============================================== */
-		$to = "johnvinceandres.oic@gmail.com";
+		$to = "someadress@mail.com";
 		/* =============================================== */
 
 		
 		/* Next we have to add a subject */
-		$subject = $firstname . " has a question for you";
+		$subject = $name . " has a question for you";
 		/* Next we are setting some basic headers */
 		$headers = "MIME-Version: 1.0" . "\r\n";
 		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";

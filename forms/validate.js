@@ -22,7 +22,6 @@ function disableButton(){
 	pleaseWaitMessage.innerHTML = "Please wait...";
 }
 
-
 /* Next i write a function to enable the submit button and clear the "please-wait" message */
 function enableButton(){
 	submitButton.disabled = false;
@@ -41,7 +40,6 @@ function clearForm(){
 	// I clear all the form fields and the please-wait message.
 	form.firstname.value = "";
 	form.email.value = "";
-	form.subject.value= "";
 	form.message.value = "";
 	pleaseWaitMessage.innerHTML = "";
 
@@ -67,9 +65,8 @@ form.addEventListener("submit", function(e){
 	/* Next i will create an object to hold the form fields "names" and "values".
 	I will send that object to the php file. */
 	let formdata = {
-		"name": this.firstname.value,
+		"name": this.name.value,
 		"email": this.email.value,
-		"subject": this.subject.value,
 		"message": this.message.value
 	}
 

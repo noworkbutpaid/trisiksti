@@ -1197,7 +1197,7 @@
             <form action="" method="POST" class="php-email-form" name="contact-form">
               <div class="row">
                 <div class="col-lg-6 form-group">
-                  <input type="text" name="firstname" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-lg-6 form-group">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
@@ -1308,7 +1308,7 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/js/validate.js"></script>
+  <script src="forms/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
